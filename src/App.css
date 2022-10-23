@@ -36,10 +36,15 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 16px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'EB Garamond', serif; */
+  overflow-x: hidden;
+  background: #111111;
+  ;
 }
 
 input,
@@ -89,3 +94,172 @@ h6 {
 }
 
 /*--------------------*/
+header {
+  max-width: 1920px;
+  width: 1920px;
+  height: 1038px;
+  background: url('./img/header_background.png');
+  margin-bottom: 120px;
+}
+
+
+.container {
+  max-width: 1296px;
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+  width: 1160px;
+  max-width: 1160px;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  gap: 120px;
+  /* white */
+  margin-bottom: 260px;
+}
+
+.ul-nav-wrapper {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  display: flex;
+  gap: 80px;
+}
+
+.nav-block-1 {
+  display: flex;
+  gap: 126px;
+  padding-top: 40px;
+}
+
+.nav-block-2 {
+  display: flex;
+  gap: 126px;
+  padding-top: 40px;
+}
+
+.img-2 {
+  margin-top: -10px;
+}
+
+.header-hello-block {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 290px;
+}
+
+.header-btn-wrapper {
+  max-width: 168px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+
+
+  /* white */
+
+  color: #FFFFFF;
+
+}
+
+/* MAIN */
+.main-qoute-wrapper img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.main-qoute-wrapper p {
+  margin: 0 auto;
+  max-width: 856px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 95px;
+}
+
+.services-wrapper {
+  margin: 0 auto;
+  max-width: 1296px;
+  height: 832px;
+  margin-bottom: 150px;
+}
+
+.services-block1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.services-card-1,
+.services-card-2,
+.services-card-3 {
+  max-width: 416px;
+  width: 416px;
+  height: 386px;
+}
+
+.services-item1,
+.services-item2,
+.services-item3 {
+  max-width: 396px;
+  height: 300px;
+  border: 1px solid rgba(205, 170, 125, 0.5);
+  position: relative;
+  margin-left: 20px;
+}
+
+.services-item1 img,
+.services-item2 img,
+.services-item3 img {
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 20px
+}
+
+.services-item1-text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+/* COSMETICS-SECTION */
+.cosmetics-wrapper {
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 1296px;
+  height: 144px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 168px;
+}
+
+.cosmetics-item {
+  opacity: 0.5;
+  text-align: center;
+  max-width: 386px;
+}
+
+.cosmetics-item img {
+  margin-top: 20px;
+}
