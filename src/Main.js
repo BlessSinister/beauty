@@ -1,5 +1,6 @@
 import React from "react";
 import Cosmetics from "./Cosmetics";
+import Footer from "./Footer";
 import quoteImg from './img/main_quote.png'
 import OurWorks from "./OurWorks";
 import Services from './Services'
@@ -19,6 +20,7 @@ class Main extends React.Component {
                 <Services />
                 <Cosmetics />
                 <OurWorks />
+                <Footer />
             </main>
         )
     }
