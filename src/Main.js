@@ -1,6 +1,7 @@
 import React from "react";
 import Cosmetics from "./Cosmetics";
 import quoteImg from './img/main_quote.png'
+import OurWorks from "./OurWorks";
 import Services from './Services'
 
 class Main extends React.Component {
@@ -17,6 +18,7 @@ class Main extends React.Component {
                 </div>
                 <Services />
                 <Cosmetics />
+                <OurWorks />
             </main>
         )
     }

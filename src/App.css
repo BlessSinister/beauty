@@ -263,3 +263,49 @@ header {
 .cosmetics-item img {
   margin-top: 20px;
 }
+
+/* OURWORKS */
+.ourWorks-wrapper {
+  max-width: 1296px;
+  width: 1296px;
+  height: 1525px;
+  margin-bottom: 99px;
+
+}
+
+.ourWorks-h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+.ourWorks-ul-wrapper {
+  display: flex;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  /* or 31px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #FFFFFF;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.ourWorks-item {
+  max-width: 416px;
+  height: 416px;
+}
+
+.ourWorks-item-wrapper {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
